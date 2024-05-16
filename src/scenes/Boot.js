@@ -19,11 +19,12 @@ export class Boot extends Scene
         this.load.image('face0', '/assets/images/face0.png');
         this.load.image('face1', '/assets/images/face1.png');
         this.load.image('face2', '/assets/images/face2.png');
+        this.load.image('lose', '/assets/images/lose.jpg');
 
     }
 
     create ()
     {
-        this.scene.start('Game');
+        this.scene.start('NewGame');
     }
 }
